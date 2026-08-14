@@ -58,6 +58,6 @@ class CommandParser:
             elif action == 'delete_file':
                 result = self.file_manager.delete_file(param)
                 return {"success": True, "message": result}
-            
+        #python inforgraphic
         except Exception as e:
             return {"success": False, "message": f"Error: {str(e)}"}
